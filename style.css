@@ -1,11 +1,11 @@
 .headings {
   color: mediumturquoise;
-  font-family: "Raleway", sans-serif;
+  font-family: Garamond;
 }
 
 #about-me-paragraph {
   color: lightsteelblue;
-  font-family: "Book Antiqua";
+  font-family: Palatino;
   font-size: 25px;
 }
 
