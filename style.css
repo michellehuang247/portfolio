@@ -2,8 +2,6 @@
 ul {
   list-style-type: none;
   background-color: lavender;
-  margin: 0;
-  padding: 0;
   overflow: hidden;
 }
 
@@ -14,18 +12,25 @@ li{
 li a{
   display:block;
   color: darkslateblue;
-  padding: 20px;
+  padding: 25px;
   text-decoration:none;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;;
 }
 
 .headings {
   color: steelblue;
+  text-align: center;
+  font-weight: bold;
   font-family: Georgia, serif;
 }
 
 #about-me-paragraph {
+  text-align: center;
   color: cadetblue;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   font-size: 25px;
+}
+
+h2 {
+  text-align: center;
 }
