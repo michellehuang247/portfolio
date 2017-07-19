@@ -14,14 +14,23 @@ li a{
   color: darkslateblue;
   padding: 25px;
   text-decoration:none;
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 .headings {
-  color: steelblue;
+  padding: 20px;
+  color:darkslategray;
+  background-color:  lightsteelblue;
   text-align: center;
   font-weight: bold;
-  font-family: Georgia, serif;
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#bigTitle{
+  font-size: 150px;
+  text-align: center;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: darkslategray;
 }
 
 #about-me-paragraph {
@@ -33,4 +42,20 @@ li a{
 
 h2 {
   text-align: center;
+}
+
+body {
+  background-image: url("forest.jpg");
+  background-size: cover;
+}
+
+.dropdown  {
+  left: 50%;
+  right: auto;
+  text-align: center;
+  transform: translate(-50%, 0);
+}
+
+.panel-default > .panel-heading {
+    background-color: #D6CAD5;
 }
